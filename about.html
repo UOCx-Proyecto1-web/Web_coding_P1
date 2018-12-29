@@ -57,7 +57,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Who We Are</h1>
+              <h1>About Us</h1>
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
             </div>
           </div>
@@ -140,67 +140,7 @@
       </div>
     </section>
 
-    <section class="section pt-5 pb-2">
-      <div class="container">
-        <div class="row mb-5 justify-content-center element-animate">
-          <div class="col-md-12">
-            <span class="section-heading">Recent Sermons</span>
-            <h2>Listen Our Sermons</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-sm-6 col-lg-4 mb-5">
-            
-            <div class="sermon element-animate">
-              <div class="sermon-text">
-            <h2><a href="#">Arise, Shine</a></h2>
-            <p class="sermon-meta">by <a href="#">Luis Matthew</a> on March 28, 2018</p>
-            </div>
-            <div class="player">
-                <audio id="player2" preload="none" controls style="max-width: 100%">
-                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            </div>
-
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4 mb-5">
-            
-            <div class="sermon element-animate">
-              <div class="sermon-text">
-            <h2><a href="#">Filled in Him</a></h2>
-            <p class="sermon-meta">by <a href="#">Luis Matthew</a> on March 28, 2018</p>
-            </div>
-            <div class="player">
-                <audio id="player3" preload="none" controls style="max-width: 100%">
-                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            </div>
-
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4 mb-5">
-            
-            <div class="sermon element-animate">
-              <div class="sermon-text">
-            <h2><a href="#">Jehovah the Creator</a></h2>
-            <p class="sermon-meta">by <a href="#">Luis Matthew</a> on March 28, 2018</p>
-            </div>
-            <div class="player">
-                <audio id="player4" preload="none" controls style="max-width: 100%">
-                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- END section -->
-    
-    
 
     <footer class="site-footer" role="contentinfo">
       <div class="container">
@@ -260,23 +200,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/main.js"></script>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-                var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
-
-                for (var i = 0; i < total; i++) {
-                    new MediaElementPlayer(mediaElements[i], {
-                        pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
-                        shimScriptAccess: 'always',
-                        success: function () {
-                            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
-                            for (var j = 0; j < targetTotal; j++) {
-                                target[j].style.visibility = 'visible';
-                            }
-                  }
-                });
-                }
-            });
-    </script>
   </body>
 </html>
