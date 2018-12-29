@@ -327,21 +327,21 @@ header .navbar .cta-btn a:hover {
   font-size: 14px;
 }
 
-.pastor img {
+.actor img {
   width: 200px;
   border-radius: 50%;
 }
 
-.pastor .position {
+.actor .position {
   opacity: .5;
   margin-bottom: 10px;
 }
 
-.pastor p {
+.actor p {
   margin-bottom: 30px;
 }
 
-.pastor h3 {
+.actor h3 {
   font-size: 20px;
 }
 
