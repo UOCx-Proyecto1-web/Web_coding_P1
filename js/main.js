@@ -14,32 +14,8 @@
   };
   loader();
 
-	
-	$('nav .dropdown').hover(function(){
-		var $this = $(this);
-		$this.addClass('show');
-		$this.find('> a').attr('aria-expanded', true);
-		$this.find('.dropdown-menu').addClass('show');
-	}, function(){
-		var $this = $(this);
-			$this.removeClass('show');
-			$this.find('> a').attr('aria-expanded', false);
-			$this.find('.dropdown-menu').removeClass('show');
-	});
-
-
-	$('#dropdown04').on('show.bs.dropdown', function () {
-	  console.log('show');
-	});
-
   // countdown
-  // $("#date-countdown").countdown("2018/12/7", function(event) {
-  //   $(this).text(
-  //     event.strftime('%D <span class="label">days</span> %H <span class="label">hours</span> %M <span class="label">minutes</span> %S <span class="label">seconds</span>')
-  //   );
-  // });
-
-  $('#date-countdown').countdown('2020/10/10', function(event) {
+  $('#date-countdown').countdown('2019/01/15', function(event) {
   var $this = $(this).html(event.strftime(''
     + '<span class="countdown-block"><span class="label">%w</span> weeks </span>'
     + '<span class="countdown-block"><span class="label">%d</span> days </span>'
