@@ -236,7 +236,7 @@ header .navbar .cta-btn a:hover {
   padding: 2px 15px;
   display: inline-block;
   font-size: 11px;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: .2em;
   margin-bottom: 15px;
@@ -368,7 +368,7 @@ header .navbar .cta-btn a:hover {
   padding: 2px 15px;
   display: inline-block;
   font-size: 11px;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: .2em;
   margin-bottom: 15px;
@@ -1066,4 +1066,8 @@ header .navbar .cta-btn a:hover {
 
 .copyright {
   font-size: 14px;
+}
+
+.sponsors img {
+  width: 10%;
 }
